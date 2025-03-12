@@ -296,6 +296,14 @@ body.light-mode .card-header {
   border-radius: 2rem;
   font-size: 0.8rem;
   font-family: "Roboto Mono", monospace;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.tech-tags i,
+.skill-tags i {
+  font-size: 1rem;
 }
 
 /* Skills Section */
