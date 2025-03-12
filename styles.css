@@ -89,6 +89,38 @@ header h1 {
   color: var(--secondary-color);
 }
 
+/* Resume Link Style */
+.resume-link i {
+  color: #ff6b6b;
+}
+
+body.light-mode .resume-link i {
+  color: #e74c3c;
+}
+
+.standalone-resume {
+  display: inline-block;
+  margin: 0.5rem auto 1.5rem;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #ff6b6b;
+  border-radius: 4px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.standalone-resume:hover {
+  background-color: rgba(255, 107, 107, 0.1);
+}
+
+body.light-mode .standalone-resume {
+  border-color: #e74c3c;
+}
+
+body.light-mode .standalone-resume:hover {
+  background-color: rgba(231, 76, 60, 0.1);
+}
+
 /* Theme Toggle Button */
 .theme-toggle {
   position: absolute;
@@ -123,6 +155,11 @@ main {
 
 section {
   margin-bottom: 4rem;
+}
+
+/* About section specific spacing */
+#about {
+  margin-top: 2rem;
 }
 
 h2 {
